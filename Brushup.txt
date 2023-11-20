@@ -1,0 +1,323 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+course = 'Python for Beginers'
+len(course)
+course.find('P')
+course.replace('Beginers', 'Absolute beginers')
+course.upper()
+course.lower()
+course.title()
+course.capatalize()
+
+print('Python' in course)
+
+Augmented Assignment operator
+x = 10
+x = x + 3 / x += 3 (Augmented Assignment operator)
+
+import math
+x = -2.9
+print(round(x))
+print(abs(x))
+
+Math-Module python 3
+print(math.ceil(2.9))
+print(math.floor(2.9))
+
+isHot = True
+
+if isHot:
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Modules is like code library, we can borrow copy ofcode written by others.
+
+Types of Modules:
+1. External modules
+2. Built in packages/module
+pip is like a package manager.
+Use pip for windows && pip3 for Mac & Linux
+pip install panda (package)
+ 
+python3 >>> REPL >>> [Its like bash/shell script]
+>>> import pandas
+
+#'''comments'''
+
+Escape-Seq-char:
+print("testing esccape-seq-char:\n
+\"This also a esc-seq-char\", it helps", sep="*", end="00\n")
+
+Variables are like containers, stores data for specification.
+variables are stored in RAM.
+
+Data-types=[string, int, float, null, boolean, list, tupel, dict]
+
+
+Operators [+,-,*,**,/,//,%]
+
+Type-Cast:
+a="1"\nb="2"
+1. Implist: 8.8 + 9
+2. Explist: int(a) + int(b) ~ o/p:3
+
+User-input: to make code interactive we take user-input value by using input() function
+User-input is always string format
+
+Strings deep_dive: data which is entered into python with single/double quotes is known as string.
+name="abc"
+print(name[0]) '''Every char. has an index-value'''
+op ~ a
+
+ForLoopWithStrings: '''this is where cahr is undefinable'''
+for character in variable:
+	print(character)
+
+stingSlicing: We can find length of string using length function.
+variable = "value"
+len = len(variable)
+print(variable[0:4]) # including 0 but not 4
+print(variable[:])
+print(variable[0:-3]) 
+
+stringMethods: #All strings are immutable
+variable = "value" 
+print(variable.upper())
+print(variable.lower())
+print(variable.strip()) #removes whitespace from bothside
+print(variable.rstrip("!")) #removes extra from left
+print(variable.rstrip("!")) #removes extra from right
+print(variable.replace("value", "value1"))
+print(variable.split(",")) or print(variable.split(" "))
+print(variable.capitalize())
+print(variable.title())
+print(variable.center(10))
+print(variable.count("a/2"))
+print(variable.endswith("")) #the output is in boolean
+print(variable.find("a/2")) #the output is in index value if value do not match the find then o/p = -1
+print(variable.index("a/2"))
+print(variable.swapcase())
+print(variable.isalnum()) #the output is in boolean
+print(variable.isalpha()) #the output is in boolean
+print(variable.islower()) #the output is in boolean
+print(variable.isupper()) #the output is in boolean
+print(variable.isprintable("\n")) #the output is in boolean
+print(variable.istitle()) #the output is in boolean
+
+Conditional Operators: [>,<,>=,<=,==]
+print(variable>num)
+print(variable==num)
+
+ifElseStatements: Sometimes programmer needs to check the evaluation True/False. If the expression evaluates as True/False the outcome of both should be different than the other.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Hello.py Syntax:
+#Ask user for name
+name = input("Please enter first and last name: ").strip().title()
+
+# Split user's name into first and last name
+first, last = name.split(" ")
+
+#Say hello to user
+print("hello,", name)
+print("hello, " + name)
+print(f"hello, {first}")
+
+#Addition calculator:
+x = float(input("Enter value for x: "))
+y = float(input("Enter value for y: "))
+print(x + y)
+
+z = round(x + y)
+z = round(x / y, 2) #Rounding to nearst decimal
+print(f"{z:,}")
+
+Always remember that input by user is always a 'str'.
+
+
+def hello():
+    print("hello,", name)
+
+name = input("What is your name? ").strip().title()
+hello()
+
+
+
+
+
+
+
+
+
+
+variables = something
+
+dataTypesInVariables = [str + num + True/False]
+print("'This is a string'")
+print(19) ~ [this is a number]
+print(2.5) ~ [this is a float/deciaml]
+print('15') ~ [this is a string]
+print(10 + 5 - 3 * 20) ~ [thease are operators]
+
+myNumber = 10
+print(myNumber)
+print(myNumber + "This is a string")
+myNumber = -45
+print(abs(myNumber)) ~ [this gives absolute number]
+print(pow(3, 2)) ~ [this is equivalent to 3^2]
+print(max(3, 6)) ~ [this gives max number as o/p]
+print(round(4.3)) ~ [this provides roundNum]
+
+excStatement = \n
+
+concat = print(something + "str")
+
+Functions [print=(something.upper().isupper())]
+	  [print(len(something))]
+	  [print(something[0])] ~ "defines firest char"
+	  [print(something.index("i"))] ~ "defines the position of the char"
+	  [print(something.replace("Original", "Updated"))]
+
+input ~ ["this is equivalent to read in shell"]
+input("Ask the user for a value: ")
+variable = input("Ask the user for a value: ") ~ ["here we store input from user as a variable"]
+print(variable)
+
+#Every input from user is always a string
+
+list = [1,2,3,a,b,c,e]
+tuple = (3,1)
+Difference betn List && Tuple
+List are mutable, Tuple are immutable
