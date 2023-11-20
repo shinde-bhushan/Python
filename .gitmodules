@@ -1,0 +1,3 @@
+[submodule "Django"]
+	path = Django
+	url = https://github.com/shinde-bhushan/Django.git
